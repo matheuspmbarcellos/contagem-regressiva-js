@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Regressiva</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+
+  <h1>Contagem Regressiva</h1>
+  
+  <div>
+    <input id="date" type="date">
+    <button type="submit" onclick="countdown()">Iniciar</button>
+    <button type="reset" onclick="reset()">Zerar</button>
+
+    <p id="container"></p>
+  </div>
+
+  <div id="clockdiv">
+    <div>
+      <span class="days" id="day"></span>
+      <div class="smalltext">Dias</div>
+    </div>
+    <div>
+      <span class="hours" id="hour"></span>
+      <div class="smalltext">Horas</div>
+    </div>
+    <div>
+      <span class="minutes" id="minute"></span>
+      <div class="smalltext">Minutos</div>
+    </div>
+    <div>
+      <span class="seconds" id="second"></span>
+      <div class="smalltext">Segundos</div>
+    </div>
+  </div>
+    
+  <p id="demo"></p>
+
+
+  <script src="assets/script.js"></script>
+
+</body>
+</html>
